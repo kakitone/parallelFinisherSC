@@ -13,6 +13,11 @@ For parallel access with 4 threads and with large contig file,
 
     python finisherSC.py -par 4 -l True destinedFolder mummerPath
 
+For parallel access with 4 threads and with large contig file and in the fast mode,
+
+    python finisherSC.py -par 4 -l True -f True destinedFolder mummerPath
+
+
 For more help, 
 
     python finisherSC.py -h
